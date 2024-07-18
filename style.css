@@ -1,0 +1,27 @@
+table {
+  border: #000;
+  width: 550px;
+}
+th,
+td {
+  padding: 8px;
+  border: 1px solid #000000;
+}
+.green {
+  color: white;
+  background-color: green;
+}
+.red {
+  color: white;
+  background-color: red;
+}
+
+.button {
+  background-color: rgb(25, 0, 255);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+  margin: 5px;
+}

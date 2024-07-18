@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Client</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div>
+    <h1>Crear cliente</h1>
+
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" >
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido">
+    </form>
+    
+    <button type="button" class="button" onclick="KDSBmostrar()">Buscar</button>
+    <br>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>Categoría</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="clientTable">
+        <tr>
+          <td>Marvin</td>
+          <td>Barrera</td>
+          <td rowspan="50">Gerentes</td>
+          <td>
+            <button class="green">E</button>
+            <button class="red">D</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Mateo</td>
+          <td>Rivas</td>
+          
+          <td>
+            <button class="green">E</button>
+            <button class="red">D</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="app.js">
+    
+  </script>
+</body>
+</html>
